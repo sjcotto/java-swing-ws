@@ -1,0 +1,81 @@
+/* 
+    Document   : DetallesEquipo
+    Created on : Sep 19, 2011, 8:57:45 PM
+    Author     : tprog082
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+  body{
+    font-family:Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    background-color:#000000; background-image:url(../images/fondomain.png); background-repeat:no-repeat;
+
+   }
+
+.jugadores {
+    text-align: center;
+}
+
+
+.jugador {
+    display: inline-block;
+    margin-left: 10px;
+    /*border: 1px solid #aaaaaa;*/
+    text-align: center;
+}
+
+.campoImg {
+    display: block;
+}
+
+.jugador img{
+    height: 100px;
+    width: 100px;
+}
+
+.campoNombre {
+    display: block;
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+.todo{
+     border-style:  ridge;
+    border-color:  #000;
+     background-color:#ffffff;
+    border:1px solid black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+     width: 700px;
+     margin-left: 70px;
+}
+.infoEquipoBasica{
+    display:  inline-block;
+    text-align: center;
+    width: 650px;
+}
+.imagen{
+    display: block;
+  }
+  .nombre{
+      display: block;
+      font-size: 50px;
+
+}
+
+
+.jugs{
+   font-size: 30px;
+   margin:  auto;
+   text-align: center;
+}
+
+
+
+

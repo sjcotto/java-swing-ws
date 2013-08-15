@@ -1,0 +1,76 @@
+/* 
+    Document   : Jugador
+    Created on : 20/09/2011, 11:59:54 AM
+    Author     : gonzalo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+  body{
+    font-family:Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    background-color:#000000; background-image:url(../images/fondomain.png); background-repeat:no-repeat;
+
+ }
+ .todo{
+
+     background-color:#ffffff;
+    border:1px solid black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    width: 800px;
+    margin-left: 70px;
+    display: inline-block;
+  }
+ 
+.fotoJug {
+    display:block;
+    float: left;
+    
+
+}
+
+.fotoJug img {
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 300px;
+
+}
+
+.campoInf {
+    display: block;
+    margin-left: 20px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+    text-align:  center;
+   
+}
+
+.campoNomJug{
+    display: block;
+    font-size: 40px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align:  center;
+
+    
+}
+
+.campoTxt{
+    display: block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+

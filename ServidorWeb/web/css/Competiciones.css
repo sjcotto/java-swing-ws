@@ -1,0 +1,58 @@
+/* 
+    Document   : Competiciones
+    Created on : 20/09/2011, 01:14:38 AM
+    Author     : gonzalo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+  body{
+    font-family:Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    background-color:#000000; background-image:url(../images/fondomain.png); background-repeat:no-repeat;
+    
+                }
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.competiciones {
+    margin-top: 60px;
+    background-color:#ffffff;
+    border:1px solid black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    width: 700px;
+    margin:  auto;
+    text-align: center;
+    
+}
+
+.competicion {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.campoImg {
+    display: block;
+}
+
+.competicion img{
+    height: 100px;
+}
+
+.campoNombre {
+    display: block;
+    font-family:sans-serif,serif, monospace;
+    font-size: 130%;
+}
